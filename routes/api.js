@@ -1,11 +1,3 @@
-/*
-*
-*
-*       Complete the API routing below
-*
-*
-*/
-
 'use strict';
 
 const expect = require('chai').expect;
@@ -48,5 +40,4 @@ module.exports = function(app) {
         res.json({ initNum: initNum, initUnit: initUnit, returnNum: returnNum, returnUnit: returnUnit, string: toString });
       }
     });
-
 };
